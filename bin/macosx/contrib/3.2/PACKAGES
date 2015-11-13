@@ -1,0 +1,463 @@
+Package: ada
+Version: 2.0-3
+Depends: R(>= 2.10),rpart
+License: GPL
+MD5sum: edca5015d374e93a1abacf85384c3a66
+
+Package: assertthat
+Version: 0.1
+Suggests: testthat
+License: GPL-3
+MD5sum: 4e9d50090f7d75c45455e7532eede39c
+
+Package: BH
+Version: 1.58.0-1
+License: BSL-1.0
+MD5sum: b5490f0aeb7fd00903b1f4f5165c05fe
+
+Package: chron
+Version: 2.3-47
+Depends: R (>= 2.12.0)
+Imports: graphics, stats
+Suggests: scales, ggplot2
+Enhances: zoo
+License: GPL-2
+Archs: chron.so.dSYM
+MD5sum: 44a71f5560eb52d9e8a29f919e17d3cc
+
+Package: class
+Version: 7.3-14
+Priority: recommended
+Depends: R (>= 3.0.0), stats, utils
+Imports: MASS
+License: GPL-2 | GPL-3
+Archs: class.so.dSYM
+MD5sum: bcc6ab139f68f42ec8cbafed435b644e
+
+Package: cluster
+Version: 2.0.3
+Priority: recommended
+Depends: R (>= 2.15.0), utils
+Imports: graphics, grDevices, stats
+Suggests: MASS
+License: GPL (>= 2)
+Archs: cluster.so.dSYM
+MD5sum: e99a93a7667a525071b25b1fe1e92ed4
+
+Package: codetools
+Version: 0.2-14
+Priority: recommended
+Depends: R (>= 2.1)
+License: GPL
+MD5sum: dd7e00338ad1396862b15d7bdb1e94f0
+
+Package: curl
+Version: 0.9.1
+Depends: R (>= 2.10.0)
+Suggests: testthat, knitr, jsonlite, rmarkdown, magrittr
+License: MIT + file LICENSE
+Archs: curl.so.dSYM
+MD5sum: c726cbb4e61d7bf229207ace1564e004
+
+Package: data.table
+Version: 1.9.4
+Depends: R (>= 2.14.0)
+Imports: methods, chron, reshape2
+Suggests: ggplot2 (>= 0.9.0), plyr, reshape, testthat (>= 0.4), hexbin,
+         fastmatch, nlme, xts, bit64
+License: GPL (>= 2)
+Archs: datatable.so.dSYM
+MD5sum: 67d2685885e2751063a2471d9f29c19c
+
+Package: DBI
+Version: 0.3.1
+Depends: R (>= 2.15.0), methods
+Suggests: testthat, RSQLite
+License: LGPL (>= 2)
+MD5sum: de2f4be1ef721f3b9b07738f11d03e90
+
+Package: DEoptimR
+Version: 1.0-3
+Imports: stats
+Enhances: robustbase
+License: GPL (>= 2)
+MD5sum: 5b9453de4c9ec322659cdd4459e26782
+
+Package: digest
+Version: 0.6.8
+Depends: R (>= 2.4.1)
+License: GPL-2
+Archs: digest.so.dSYM
+MD5sum: 850cf6d48a14a7aa7414db1170b7326c
+
+Package: diptest
+Version: 0.75-7
+License: GPL (>= 2)
+Archs: diptest.so.dSYM
+MD5sum: 71e950ecd847f50296be025e917fe63d
+
+Package: dplyr
+Version: 0.4.3
+Depends: R (>= 3.1.2)
+Imports: assertthat, utils, R6, Rcpp, magrittr, lazyeval (>= 0.1.10), DBI (>=
+         0.3)
+LinkingTo: Rcpp (>= 0.12.0), BH (>= 1.58.0-1)
+Suggests: RSQLite (>= 1.0.0), RMySQL, RPostgreSQL, data.table, testthat, knitr,
+         microbenchmark, ggplot2, mgcv, Lahman (>= 3.0-1), nycflights13, methods
+License: MIT + file LICENSE
+Archs: dplyr.so.dSYM
+MD5sum: 3de766e8f7450965a90d697d059d2981
+
+Package: e1071
+Version: 1.6-7
+Imports: graphics, grDevices, class, stats, methods, utils
+Suggests: cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable, Matrix,
+         MASS
+License: GPL-2
+Archs: e1071.so.dSYM
+MD5sum: c56630d8b23a08510d9c745a9481bf82
+
+Package: FinancialInstrument
+Version: 1.2.0
+Depends: R (>= 2.12.0), quantmod (>= 0.4-3), zoo (>= 1.7-5), xts
+Imports: TTR
+Suggests: foreach, XML (>= 3.96.1.1), testthat, its, timeSeries
+License: GPL
+MD5sum: c9926c1f9e101005c537293e575bb115
+
+Package: flexmix
+Version: 2.3-13
+Depends: R (>= 2.15.0), lattice
+Imports: grid, methods, modeltools (>= 0.2-16), nnet, stats, stats4
+Suggests: codetools, diptest, ellipse, gclus, glmnet, lme4 (>= 1.0), MASS, mgcv
+         (>= 1.8-0), mlbench, mlogit, multcomp, mvtnorm, survival
+License: GPL (>= 2)
+MD5sum: 8c9a0848a97074d1c32c9340f325a51d
+
+Package: foreach
+Version: 1.4.2
+Depends: R (>= 2.5.0)
+Imports: codetools, utils, iterators
+Suggests: randomForest
+Enhances: compiler, doMC, RUnit, doParallel
+License: Apache License (== 2.0)
+MD5sum: 8d35d7ef77d44a9488345885def130a1
+
+Package: fpc
+Version: 2.1-10
+Depends: R (>= 2.0)
+Imports: MASS, cluster, mclust, flexmix, prabclus, class, diptest, mvtnorm,
+         robustbase, kernlab, trimcluster, grDevices, graphics, methods, stats,
+         utils
+License: GPL
+MD5sum: 493e46557395d32f9ccd04a2c86f47a9
+
+Package: httr
+Version: 1.0.0
+Depends: R (>= 3.0.0)
+Imports: digest, jsonlite, mime, curl (>= 0.6), R6, stringr (>= 0.6.1)
+Suggests: base64enc, httpuv, jpeg, knitr, PKI (>= 0.1-2), png, testthat (>=
+         0.8.0), XML
+License: MIT + file LICENSE
+MD5sum: 91f0af91c7ae876f08e8b38e2988df4d
+
+Package: iterators
+Version: 1.0.7
+Depends: R (>= 2.5.0), utils
+Suggests: RUnit
+License: Apache License (== 2.0)
+MD5sum: 4cdc4c757e0c69a4c7485eb5dc31c2f9
+
+Package: jsonlite
+Version: 0.9.17
+Depends: methods
+Suggests: curl (>= 0.5), plyr, testthat, knitr, rmarkdown, R.rsp
+License: MIT + file LICENSE
+Archs: jsonlite.so.dSYM
+MD5sum: 298ceb69557ba3e176a4e05b0df22045
+
+Package: kernlab
+Version: 0.9-22
+Depends: R (>= 2.10)
+Imports: methods, stats, grDevices, graphics
+License: GPL-2
+Archs: kernlab.so.dSYM
+MD5sum: ec99177225e1a95846c2d1039d9c0098
+
+Package: lattice
+Version: 0.20-33
+Priority: recommended
+Depends: R (>= 3.0.0)
+Imports: grid, grDevices, graphics, stats, utils
+Suggests: KernSmooth, MASS
+Enhances: chron
+License: GPL (>= 2)
+Archs: lattice.so.dSYM
+MD5sum: 4444712b6def808b2c9be0a1d2d46ac6
+
+Package: lazyeval
+Version: 0.1.10
+Depends: R (>= 3.1.0)
+Suggests: knitr, rmarkdown (>= 0.2.65), microbenchmark, testthat
+License: GPL-3
+Archs: lazyeval.so.dSYM
+MD5sum: 550cbf5be1dd7a4d35fa4d2e1d05d8dd
+
+Package: magrittr
+Version: 1.5
+Suggests: testthat, knitr
+License: MIT + file LICENSE
+MD5sum: 78abc11c1e7483f38e2befefe23e797c
+
+Package: MASS
+Version: 7.3-44
+Priority: recommended
+Depends: R (>= 3.1.0), grDevices, graphics, stats, utils
+Imports: methods
+Suggests: lattice, nlme, nnet, survival
+License: GPL-2 | GPL-3
+Archs: MASS.so.dSYM
+MD5sum: 5d743fbf5a690cf41d762219f5bea68a
+
+Package: Matrix
+Version: 1.2-2
+Priority: recommended
+Depends: R (>= 3.0.1)
+Imports: methods, graphics, grid, stats, utils, lattice
+Suggests: expm, MASS
+Enhances: MatrixModels, graph, SparseM, sfsmisc
+License: GPL (>= 2)
+Archs: Matrix.so.dSYM
+MD5sum: 0c3c831fe5c70b69851e9a278a2a92f0
+
+Package: mclust
+Version: 5.0.2
+Depends: R (>= 3.0)
+Imports: stats, utils, graphics, grDevices
+Suggests: knitr (>= 1.8), markdown (>= 0.7), mix
+License: GPL (>= 2)
+Archs: mclust.so.dSYM
+MD5sum: 21928f6bb5c1df4bb7550f54575c188c
+
+Package: mime
+Version: 0.4
+Imports: tools
+License: GPL-2
+Archs: mime.so.dSYM
+MD5sum: 4900b78856fc09861be7d70a4504480a
+
+Package: modeltools
+Version: 0.2-21
+Depends: stats, stats4
+Imports: methods
+License: GPL-2
+MD5sum: 49b62ee224cd63251c0221a46c456102
+
+Package: mvtnorm
+Version: 1.0-3
+Depends: R(>= 1.9.0)
+Imports: stats, methods
+License: GPL-2
+Archs: mvtnorm.so.dSYM
+MD5sum: af06e012f06ad27d8f30f3691b0f5b91
+
+Package: nnet
+Version: 7.3-11
+Priority: recommended
+Depends: R (>= 2.14.0), stats, utils
+Suggests: MASS
+License: GPL-2 | GPL-3
+Archs: nnet.so.dSYM
+MD5sum: e3f9d4e26d15f67ae6daa95cb4e33536
+
+Package: PerformanceAnalytics
+Version: 1.4.3541
+Depends: R (>= 3.0.0), xts (>= 0.9)
+Imports: zoo
+Suggests: Hmisc, MASS, quantmod, gamlss, gamlss.dist, robustbase, quantreg,
+         gplots
+License: GPL-2 | GPL-3
+Archs: PerformanceAnalytics.so.dSYM
+MD5sum: 6f621bb992459f39bc9c1c0b02253acd
+
+Package: plyr
+Version: 1.8.3
+Depends: R (>= 3.1.0)
+Imports: Rcpp (>= 0.11.0)
+LinkingTo: Rcpp
+Suggests: abind, testthat, tcltk, foreach, doParallel, itertools, iterators
+License: MIT + file LICENSE
+Archs: plyr.so.dSYM
+MD5sum: 9fa803a87b3e374c44d82d1baaa0dab0
+
+Package: prabclus
+Version: 2.2-6
+Depends: R (>= 2.10), MASS, mclust
+Suggests: spdep, maptools, foreign, mvtnorm
+License: GPL
+MD5sum: 7f12472aee4850f89f69b68145f3fe45
+
+Package: quantmod
+Version: 0.4-5
+Depends: xts(>= 0.9-0), zoo, TTR(>= 0.2), methods
+Suggests: DBI,RMySQL,RSQLite,timeSeries,its,XML,downloader
+License: GPL-3
+MD5sum: 1d2284baf3d02b084973d9e22937a0b2
+
+Package: R6
+Version: 2.1.1
+Depends: R (>= 3.0)
+Suggests: knitr, microbenchmark, pryr, testthat, ggplot2, scales
+License: MIT + file LICENSE
+MD5sum: 46b683a62399a727e7c820b91b117715
+
+Package: Rcpp
+Version: 0.12.1
+Depends: R (>= 3.0.0)
+Imports: methods, utils
+Suggests: RUnit, inline, rbenchmark, highlight, pkgKitten (>= 0.1.2)
+License: GPL (>= 2)
+Archs: Rcpp.so.dSYM
+MD5sum: 08e052ae0f0b4a6679aa91a208c68800
+
+Package: reshape2
+Version: 1.4.1
+Imports: plyr (>= 1.8.1), stringr, Rcpp
+LinkingTo: Rcpp
+Suggests: testthat (>= 0.8.0), lattice
+License: MIT + file LICENSE
+Archs: reshape2.so.dSYM
+MD5sum: 8c159a1d5243eb5e58c54fe617458dbc
+
+Package: RMySQL
+Version: 0.10.4
+Depends: R (>= 2.8.0), DBI (>= 0.3.1)
+Imports: methods
+Suggests: testthat
+License: GPL-2
+Archs: RMySQL.so.dSYM
+MD5sum: 205fc2b7261f3ff6c5c086380ac80537
+
+Package: robustbase
+Version: 0.92-5
+Depends: R (>= 3.0.2)
+Imports: stats, graphics, utils, methods, DEoptimR
+Suggests: grid, MASS, lattice, boot, cluster, Matrix, robust, fit.models, MPV,
+         xtable, ggplot2, GGally, RColorBrewer, reshape2, sfsmisc, catdata
+License: GPL (>= 2)
+Archs: robustbase.so.dSYM
+MD5sum: 309f44f27be20295165b60987ff33d17
+
+Package: rpart
+Version: 4.1-10
+Priority: recommended
+Depends: R (>= 2.15.0), graphics, stats, grDevices
+Suggests: survival
+License: GPL-2 | GPL-3
+Archs: rpart.so.dSYM
+MD5sum: 537d7239486e2e42ce0d6d18e6009a88
+
+Package: RSQLite
+Version: 1.0.0
+Depends: R (>= 2.10.0), DBI (>= 0.3.1), methods
+Suggests: testthat
+License: LGPL (>= 2)
+Archs: RSQLite.so.dSYM
+MD5sum: 2e339ad28324a83693ae1018ead75a62
+
+Package: rvest
+Version: 0.2.0
+Depends: R (>= 3.0.1)
+Imports: httr (>= 0.5), XML, selectr, magrittr
+Suggests: testthat, knitr, png, stringi (>= 0.3.1)
+License: GPL-3
+MD5sum: 81ca27cc1987e42f127f69776c459c56
+
+Package: selectr
+Version: 0.2-3
+Depends: R (>= 2.15.2)
+Imports: methods, XML, stringr
+Suggests: testthat
+License: BSD_3_clause + file LICENCE
+MD5sum: d532e6c4de4c157d40c8a2653fdcefff
+
+Package: stringi
+Version: 0.5-5
+Depends: R (>= 2.13.1)
+Imports: tools, utils, stats
+License: file LICENSE
+License_is_FOSS: yes
+MD5sum: 02abb9421168bfb7f9db5cc99ef0cba5
+
+Package: stringr
+Version: 1.0.0
+Depends: R (>= 2.14)
+Imports: stringi (>= 0.4.1), magrittr
+Suggests: testthat, knitr
+License: GPL-2
+MD5sum: ec181595b1ce59c6e5a0b0c2212982c1
+
+Package: trimcluster
+Version: 0.1-2
+Depends: R (>= 1.9.0)
+Suggests: fpc
+License: GPL
+MD5sum: 11586d35b9ee5d34b4232f18b938cba8
+
+Package: TTR
+Version: 0.23-0
+Imports: xts (>= 0.9-3), zoo
+LinkingTo: xts
+Suggests: RUnit
+Enhances: quantmod
+License: GPL-2
+Archs: TTR.so.dSYM
+MD5sum: 9f3606aafa2149ea67ba270cf76c2f37
+
+Package: xgboost
+Version: 0.4-2
+Depends: R (>= 2.10)
+Imports: Matrix (>= 1.1-0), methods, data.table (>= 1.9.4), magrittr (>= 1.5),
+         stringr (>= 0.6.2)
+Suggests: knitr, ggplot2 (>= 1.0.0), DiagrammeR (>= 0.6), Ckmeans.1d.dp (>=
+         3.3.1), vcd (>= 1.3)
+License: Apache License (== 2.0) | file LICENSE
+Archs: xgboost.so.dSYM
+MD5sum: 6425e74d323c1a7cc4588b0639597434
+
+Package: xml2
+Version: 0.1.2
+Depends: R (>= 3.1.0)
+Imports: Rcpp
+LinkingTo: Rcpp (>= 0.11.4.6), BH
+Suggests: testthat, curl
+License: GPL (>= 2)
+Archs: xml2.so.dSYM
+MD5sum: a704d61f1e51dfe089e631fb9e43bb68
+
+Package: XML
+Version: 3.98-1.2
+Depends: R (>= 2.13.0), methods, utils
+Suggests: bitops, RCurl
+License: BSD_2_clause + file LICENSE
+Archs: XML.so.dSYM
+MD5sum: fdccf53edeac1a5ee96243782b2c371c
+
+Package: xts
+Version: 0.9-7
+Depends: zoo (>= 1.7-10)
+Suggests: timeSeries,timeDate,tseries,its,chron,fts,tis
+License: GPL (>= 2)
+Archs: xts.so.dSYM
+MD5sum: 2988feffada6812bd386769d33c57113
+
+Package: zoo
+Version: 1.7-12
+Depends: R (>= 2.10.0), stats
+Imports: utils, graphics, grDevices, lattice (>= 0.20-27)
+Suggests: coda, chron, DAAG, fts, its, ggplot2, mondate, scales, strucchange,
+         timeDate, timeSeries, tis, tseries, xts
+License: GPL-2 | GPL-3
+Archs: zoo.so.dSYM
+MD5sum: 64fc30304f132fca914a891cf3702e5f
+
